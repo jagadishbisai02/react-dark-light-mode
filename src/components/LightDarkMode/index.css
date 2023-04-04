@@ -1,0 +1,51 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-family: 'Roboto';
+  border-radius: 8px;
+  height: 200px;
+  width: 350px;
+}
+
+.heading {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.dark-mode {
+  background-color: #000000;
+  border: none;
+  color: #ffffff;
+}
+
+.light-mode {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  color: #000000;
+}
+
+.click-btn {
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 8px;
+  border: 1px solid #000000;
+}
